@@ -1,0 +1,65 @@
+{
+  "name": "super-expressive.macro",
+  "version": "0.0.0-semantically-released",
+  "description": "Macro for generating RegExp expression using super-expressive",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "kcd-scripts build",
+    "lint": "kcd-scripts lint",
+    "test": "kcd-scripts test",
+    "test:update": "npm test -- --updateSnapshot --coverage",
+    "typecheck": "kcd-scripts typecheck",
+    "validate": "kcd-scripts validate"
+  },
+  "keywords": [
+    "babel",
+    "babel-plugin",
+    "babel-plugin-macros",
+    "super-expressive",
+    "regex"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arthurdenner/super-expressive.macro"
+  },
+  "bugs": {
+    "url": "https://github.com/arthurdenner/super-expressive.macro/issues"
+  },
+  "homepage": "https://github.com/arthurdenner/super-expressive.macro#readme",
+  "author": "Arthur Denner <arthurdenner7@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "super-expressive": "1.4.0"
+  },
+  "devDependencies": {
+    "@types/babel-plugin-macros": "2.8.4",
+    "babel-plugin-tester": "10.0.0",
+    "kcd-scripts": "8.1.0",
+    "super-expressive": "1.4.0",
+    "typescript": "4.2.3"
+  },
+  "dependencies": {
+    "@babel/runtime": "7.13.10",
+    "@babel/traverse": "7.13.0",
+    "babel-plugin-macros": "3.0.1"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/kcd-scripts/eslint.js",
+    "rules": {
+      "@typescript-eslint/prefer-ts-expect-error": "warn",
+      "@typescript-eslint/ban-ts-comment": "warn",
+      "max-lines-per-function": "off",
+      "no-eval": "off",
+      "no-useless-escape": "off"
+    }
+  },
+  "babel": {
+    "presets": [
+      "kcd-scripts/babel"
+    ]
+  }
+}
