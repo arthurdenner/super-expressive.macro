@@ -1,7 +1,7 @@
 {
   "name": "super-expressive.macro",
   "version": "0.0.0-semantically-released",
-  "description": "Macro for generating RegExp expression using super-expressive",
+  "description": "A macro to generate regular expressions at build-time with super-expressive",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
