@@ -2,6 +2,7 @@
 
 A macro to generate regular expressions at build-time with super-expressive.
 
+[![Babel Macro](https://img.shields.io/badge/babel--macro-%F0%9F%8E%A3-f5da55.svg?style=flat-square)](https://github.com/kentcdodds/babel-plugin-macros)
 [![version][version-badge]][package] [![MIT License][license-badge]][license]
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
@@ -101,7 +102,7 @@ MIT
 [license-badge]:
   https://img.shields.io/npm/l/super-expressive.macro.svg?style=flat-square
 [license]:
-  https://github.com/arthurdenner/super-expressive.macro/blob/master/LICENSE
+  https://github.com/arthurdenner/super-expressive.macro/blob/main/LICENSE
 [version-badge]:
   https://img.shields.io/npm/v/super-expressive.macro.svg?style=flat-square
 [package]: https://www.npmjs.com/package/super-expressive.macro
