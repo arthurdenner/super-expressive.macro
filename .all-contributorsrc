@@ -1,0 +1,25 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "arthurdenner",
+      "name": "Arthur Denner",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13774309?v=4",
+      "profile": "https://linktr.ee/arthurdenner",
+      "contributions": [
+        "code",
+        "maintenance"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "super-expressive.macro",
+  "projectOwner": "arthurdenner",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
