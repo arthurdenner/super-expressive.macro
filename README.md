@@ -59,7 +59,9 @@ After compilation:
 const myRegex = /^(?:0x)?([A-Fa-f0-9]{4})$/
 ```
 
-> Notice that the macro import disappeared after compilation
+Notice that the macro import disappeared after compilation ✨
+
+The `example` folder contains the same code as above, but you can build it and see the result.
 
 Check the
 [`super-expressive`'s detailed API](https://github.com/francisrstokes/super-expressive/#api)

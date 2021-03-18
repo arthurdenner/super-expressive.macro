@@ -9,6 +9,7 @@
   ],
   "scripts": {
     "build": "kcd-scripts build",
+    "build:example": "npm run build && cd example && kcd-scripts build",
     "lint": "kcd-scripts lint",
     "test": "kcd-scripts test",
     "test:update": "npm test -- --updateSnapshot --coverage",
